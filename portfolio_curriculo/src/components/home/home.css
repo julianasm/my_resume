@@ -1,34 +1,52 @@
 .Homepage {
-    text-align: center;
-  }
-  
-.HomeHeader {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-  }
-
-.Homepage {
     width: 500px;
     height: 300px;
     border: 20px solid rgb(204, 172, 125);
     padding: 100px;
     margin: 50px;
+    background-color: rgba(227, 208, 159, 0.100);
+    z-index: -1;
     }
-  
+
 .flor {
     position: relative;
     top:-60px;
-    left:-90px;
-    width: 64px;
-    height: 52px;
+    left:-60px;
+    width: 52px;
+    height: 40px;
+}
+
+.flor2 {
+  position: relative;
+  top: 380px;
+  left: -110px;
+  width: 52px;
+  height: 40px;
+}
+
+.flor3 {
+  position: relative;
+  top: 335px;
+  left: 570px;
+  width: 52px;
+  height: 40px;
+}
+
+.flor4 {
+  position: relative;
+  top: -105px;
+  left: 515px;
+  width: 52px;
+  height: 40px;
 }
 
 .perfil {
   position: relative;
+  border: 5px solid rgb(227, 208, 159);
   top:-100px;
-  left:0px;
-  height: 100px;
-  width: 100px;
+  left:10px;
+  height: 120px;
+  width: 120px;
 }
 
 .HomeHeader {
@@ -41,3 +59,51 @@
     background-color: rgb(204, 172, 125);
 }
 
+.experiences {
+  text-align: center;
+  padding: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: normal;
+  font-size: small;
+}
+
+.content {
+  position: relative;
+  left:-30px;
+  top:-10px; 
+  height: 200px;
+  width: 300px;
+  z-index: -1;
+  background-color: rgb(227, 208, 159);
+}
+
+.contact {
+  position: absolute;
+  left: 150px;
+  top: 0px;
+  text-align: left;
+  font-size: small;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.links {
+  position: absolute;
+  left: 150px;
+  top: 45px;
+  text-align: left;
+  font-size: small;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+.links2{
+  position: absolute;
+  left: 150px;
+  top: 60px;
+  color: black;
+  text-align: left;
+  font-size: small;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: none;
+}
