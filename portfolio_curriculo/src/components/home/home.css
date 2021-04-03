@@ -62,7 +62,7 @@
 .experiences {
   text-align: center;
   padding: 10px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: normal;
   font-size: small;
 }
@@ -71,7 +71,7 @@
   position: relative;
   left:-30px;
   top:-10px; 
-  height: 200px;
+  height: 220px;
   width: 300px;
   z-index: -1;
   background-color: rgb(227, 208, 159);
@@ -83,7 +83,7 @@
   top: 0px;
   text-align: left;
   font-size: small;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .links {
@@ -92,9 +92,10 @@
   top: 45px;
   text-align: left;
   font-size: small;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-decoration: none;
   color: black;
+  
 }
 
 .links2{
@@ -104,6 +105,44 @@
   color: black;
   text-align: left;
   font-size: small;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-decoration: none;
+}
+
+.description {
+  position: absolute;
+  top: 5px;
+  color: black;
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: normal;
+}
+
+.academic {
+    position: absolute;
+    left: 350px;
+    top: -190px; 
+    height: 140px;
+    width: 200px;
+    z-index: -1;
+    background-color: rgb(227, 208, 159);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 5px 2px rgb(204, 172, 125, 0.300);
+}
+
+.description2 {
+  position: relative;
+  left: 310px;
+  top: -200px; 
+  color: black;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 10px;
+  padding-left: 5px;
 }
