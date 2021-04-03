@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react_test/portfoli_curriculo/static/css/main.5b3d9d57.chunk.css",
-    "main.js": "/react_test/portfoli_curriculo/static/js/main.b1db2271.chunk.js",
-    "main.js.map": "/react_test/portfoli_curriculo/static/js/main.b1db2271.chunk.js.map",
-    "runtime-main.js": "/react_test/portfoli_curriculo/static/js/runtime-main.e0603543.js",
-    "runtime-main.js.map": "/react_test/portfoli_curriculo/static/js/runtime-main.e0603543.js.map",
-    "static/js/2.25f929bb.chunk.js": "/react_test/portfoli_curriculo/static/js/2.25f929bb.chunk.js",
-    "static/js/2.25f929bb.chunk.js.map": "/react_test/portfoli_curriculo/static/js/2.25f929bb.chunk.js.map",
-    "static/js/3.6ddc300e.chunk.js": "/react_test/portfoli_curriculo/static/js/3.6ddc300e.chunk.js",
-    "static/js/3.6ddc300e.chunk.js.map": "/react_test/portfoli_curriculo/static/js/3.6ddc300e.chunk.js.map",
-    "index.html": "/react_test/portfoli_curriculo/index.html",
-    "static/css/main.5b3d9d57.chunk.css.map": "/react_test/portfoli_curriculo/static/css/main.5b3d9d57.chunk.css.map",
-    "static/js/2.25f929bb.chunk.js.LICENSE.txt": "/react_test/portfoli_curriculo/static/js/2.25f929bb.chunk.js.LICENSE.txt"
+    "main.css": "/react_test/portfolio_curriculo/static/css/main.5b3d9d57.chunk.css",
+    "main.js": "/react_test/portfolio_curriculo/static/js/main.b1db2271.chunk.js",
+    "main.js.map": "/react_test/portfolio_curriculo/static/js/main.b1db2271.chunk.js.map",
+    "runtime-main.js": "/react_test/portfolio_curriculo/static/js/runtime-main.ef7bfb04.js",
+    "runtime-main.js.map": "/react_test/portfolio_curriculo/static/js/runtime-main.ef7bfb04.js.map",
+    "static/js/2.25f929bb.chunk.js": "/react_test/portfolio_curriculo/static/js/2.25f929bb.chunk.js",
+    "static/js/2.25f929bb.chunk.js.map": "/react_test/portfolio_curriculo/static/js/2.25f929bb.chunk.js.map",
+    "static/js/3.6ddc300e.chunk.js": "/react_test/portfolio_curriculo/static/js/3.6ddc300e.chunk.js",
+    "static/js/3.6ddc300e.chunk.js.map": "/react_test/portfolio_curriculo/static/js/3.6ddc300e.chunk.js.map",
+    "index.html": "/react_test/portfolio_curriculo/index.html",
+    "static/css/main.5b3d9d57.chunk.css.map": "/react_test/portfolio_curriculo/static/css/main.5b3d9d57.chunk.css.map",
+    "static/js/2.25f929bb.chunk.js.LICENSE.txt": "/react_test/portfolio_curriculo/static/js/2.25f929bb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e0603543.js",
+    "static/js/runtime-main.ef7bfb04.js",
     "static/js/2.25f929bb.chunk.js",
     "static/css/main.5b3d9d57.chunk.css",
     "static/js/main.b1db2271.chunk.js"
