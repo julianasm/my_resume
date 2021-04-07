@@ -1,6 +1,7 @@
 import React from 'react';
-import "../home/home.css";
-
+import "../home/home.css"
+import flor from "../../images/flor.png"
+import perfil from "../../images/foto_perfil.jfif"
 
 function NewlineText(props) {
   const text = props.text;
@@ -10,21 +11,21 @@ function NewlineText(props) {
 
 function Home() {
   return (
-    <div className="Homepage">
+    <body className="Homepage">
         <header className="HomeHeader">
-            <p1 className="contact">
+            <p className="contact">
               Juliana Souza
               julianasouzamelo2@gmail.com
-              +55 61 981062410</p1>
-              <a className="links" href="https://github.com/julianasm">Github</a>
-              <a className="links2" href="https://www.linkedin.com/in/juliana-m-293738b1/">LinkedIn</a>
-            <img className="flor" src="/images/flor.png" alt="Três folhas formando uma flor" />
-            <img className="flor2" src="/images/flor.png" alt="Três folhas formando uma flor" />
-            <img className="flor3" src="/images/flor.png" alt="Três folhas formando uma flor" />
-            <img className="flor4" src="/images/flor.png" alt="Três folhas formando uma flor" />
-            <img className="perfil" src="/images/foto_perfil.jfif" alt="Mulher negra sorrindo para a foto" />
+              +55 61 981062410</p>
+              <a className="links" href="https://github.com/julianasm" target="_blank">Github</a>
+              <a className="links2" href="https://www.linkedin.com/in/juliana-m-293738b1/" target="_blank">LinkedIn</a>
+            <img className="flor" src={ flor } alt="Três folhas formando uma flor" />
+            <img className="flor2" src={ flor } alt="Três folhas formando uma flor" />
+            <img className="flor3" src={ flor } alt="Três folhas formando uma flor" />
+            <img className="flor4" src={ flor } alt="Três folhas formando uma flor" />
+            <img className="perfil" src={ perfil } alt="Mulher negra sorrindo para a foto" />
         </header>
-        <body className="content">
+        <div className="content">
             <h3 className="experiences">
               Experiência profissional
             </h3>
@@ -48,8 +49,8 @@ function Home() {
              <p className="description3">
                 <NewlineText text={"Conhecimentos básicos:\n" + "ReactJs, CSS3, HTML5, MySQL, Git/Github, Dart \n" + "Conhecimentos intermediários:\n" + "Python, C++ \n" + "Pacote Office: Word, Excel, PowerPoint;\n" + "Google Drive(Planilhas, Docs, Apresentações)\n" + "Inglês (B2 - Intermediário superior)\n"}/>
               </p>
+            </div>
         </body>
-    </div>
   );
 }
 
