@@ -1,5 +1,10 @@
 import React from 'react';
+import BrowserRouter from 'react-router-dom/BrowserRouter'
 import "../home/home.css";
+
+<BrowserRouter basename="/portfolio_curriculo">
+    <Link to="/src/components/home/home.js"/>  
+</BrowserRouter>
 
 function NewlineText(props) {
   const text = props.text;
