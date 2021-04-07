@@ -8,7 +8,7 @@ import {
 
 function App() {
   return (
-    <Route path="/home">
+    <Route path="src/components/home/home.js">
     <Home />
     </Route>
     
