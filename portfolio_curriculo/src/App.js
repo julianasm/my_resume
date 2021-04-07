@@ -8,9 +8,8 @@ import {
 
 function App() {
   return (
-    <Route path="/home">
     <Home />
-    <Route />
+    <Route path="/home"/>
   );
 }
 
