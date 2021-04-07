@@ -6,10 +6,10 @@ import reportWebVitals from './reportWebVitals';
 
 
 ReactDOM.render(
-  <Router>
+  <React.StrictMode>
     <App />
-  </Router>,
-  document.getElementById("root")
+  </React.StrictMode>,
+  document.getElementById('root')
 );
 
 reportWebVitals();

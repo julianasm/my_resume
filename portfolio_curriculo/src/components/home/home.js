@@ -1,6 +1,5 @@
 import React from 'react';
 import "../home/home.css";
-import BrowserRouter from "src/index.js"
 
 
 function NewlineText(props) {
